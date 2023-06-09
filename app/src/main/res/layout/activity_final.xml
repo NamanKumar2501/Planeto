@@ -55,7 +55,7 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Naman is typing something."
                 android:textColor="@color/white"
-                android:textSize="15sp"
+                android:textSize="12sp"
                 android:textStyle="bold"/>
 
         </androidx.appcompat.widget.LinearLayoutCompat>

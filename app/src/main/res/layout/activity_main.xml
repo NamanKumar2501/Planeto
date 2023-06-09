@@ -16,7 +16,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Planeto"
             android:gravity="start|bottom"
@@ -25,6 +25,20 @@
             android:fontFamily="@font/poppins_semibold"
             android:textStyle="bold"
             android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/exitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exit"
+            android:gravity="end|bottom"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
