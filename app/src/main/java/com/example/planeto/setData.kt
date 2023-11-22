@@ -2,7 +2,7 @@ package com.example.planeto
 
 object setData {
     fun SetPlanets():List<PlanetData>{
-        var Planetlist = mutableListOf<PlanetData>()
+        val Planetlist = mutableListOf<PlanetData>()
         Planetlist.add(
             PlanetData(
                 1,
